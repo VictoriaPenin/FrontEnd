@@ -1,0 +1,30 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #ebe7de;
+}
+h1{
+   text-align: center;
+ padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+h2, h3{
+    display: inline;
+} 
+.btn {
+    border-width: 4px;
+    font-weight: bold;}
+
+    table{
+        border-color: black;
+        text-align: left;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        
+    }
+    td{
+        vertical-align: middle;
+    }

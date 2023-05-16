@@ -1,0 +1,23 @@
+#facebook{
+    width: 40px;
+ 
+}
+#twitter{
+    width: 40px;
+}
+#instagram{
+    width: 40px;
+}
+#linkedin{
+    width: 40px;
+}
+#github{
+    width: 40px;
+}
+.btn{
+    background-color: #8dabac;
+   
+    border:0px;
+    padding:16px;
+   
+}

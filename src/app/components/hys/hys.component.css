@@ -1,0 +1,27 @@
+.row{
+    background-color: #ebe7de;
+    padding-bottom: 10%;
+    text-align: center;
+
+  
+}
+h1{
+    text-align: center;
+  padding-top: 10%;
+     padding-bottom: 5%;
+ }
+
+.text-center{
+    align-items: center;
+    padding-top: 10px;
+}
+.btn {
+    border-width: 4px;
+    font-weight: bold;}
+
+    .botones{
+     padding-left: 30%;
+     padding-top: 8%;
+    }
+    
+
