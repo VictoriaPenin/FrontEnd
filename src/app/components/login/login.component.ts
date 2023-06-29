@@ -50,4 +50,8 @@ export class LoginComponent implements OnInit {
       })
   }
 
+  goToHome() {
+    this.router.navigate(['/']); // Reemplaza '/' por la ruta de tu página de inicio
+
+  }
 }

@@ -2,9 +2,18 @@
 .vh-100{
     background: #8090ac;
 }
+.btn{
+    border-width: 3px;
+ 
+}
+.img-fluid{
+    width: 50%;
+   
+}
 
 .h-custom {
 height: calc(100% - 73px);
+background: #8090ac;
 }
 @media (max-width: 450px) {
 .h-custom {

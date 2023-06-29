@@ -9,43 +9,43 @@ import { TokenService } from 'src/app/service/token.service';
   templateUrl: './logo-ap.component.html',
   styleUrls: ['./logo-ap.component.css']
 })
-export class LogoAPComponent implements OnInit {
-  isLogged = false;
+export class LogoAPComponent  {
+  // isLogged = false;
 
-  constructor(private router: Router, private tokenService: TokenService) { }
+  // constructor(private router: Router, private tokenService: TokenService) { }
 
-  ngOnInit(): void {
-    // Con esto verifico si el token existe y se establece la variable isLogged 
-    if (this.tokenService.getToken()) {
-      this.isLogged = true;
-    } else {
-      this.isLogged = false;
-    }
-  }
+  // ngOnInit(): void {
+  //   // Con esto verifico si el token existe y se establece la variable isLogged 
+  //   if (this.tokenService.getToken()) {
+  //     this.isLogged = true;
+  //   } else {
+  //     this.isLogged = false;
+  //   }
+  // }
 
-  onLogOut(): void {
-    // esto es para cerrar sesión y recargar la página
-    this.tokenService.logOut();
-    window.location.reload();
-  }
+  // onLogOut(): void {
+  //   // esto es para cerrar sesión y recargar la página
+  //   this.tokenService.logOut();
+  //   window.location.reload();
+  // }
 
-  login(): void {
-    // este para redirigir a la página de inicio de sesión
-    this.router.navigate(['/login']);
-  }
-  goToProyecto() {
-    this.router.navigate(['/', 'proyecto']);
-  }
-  goToHys() {
-    this.router.navigate(['/', 'hys']);
-  }
-  goToExperiencia() {
-    this.router.navigate(['/', 'experiencia']);
-  }
-  goToEducacion() {
-    this.router.navigate(['/', 'educacion']);
-  }
-  goToFooter() {
-    this.router.navigate(['/', 'footer']);
-  }
+  // login(): void {
+  //   // este para redirigir a la página de inicio de sesión
+  //   this.router.navigate(['/login']);
+  // }
+  // goToProyecto() {
+  //   this.router.navigate(['/', 'proyecto']);
+  // }
+  // goToHys() {
+  //   this.router.navigate(['/', 'hys']);
+  // }
+  // goToExperiencia() {
+  //   this.router.navigate(['/', 'experiencia']);
+  // }
+  // goToEducacion() {
+  //   this.router.navigate(['/', 'educacion']);
+  // }
+  // goToFooter() {
+  //   this.router.navigate(['/', 'footer']);
+  // }
 }
