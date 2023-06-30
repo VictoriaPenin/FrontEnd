@@ -8,8 +8,8 @@
   padding-bottom: 20px;
 }
 .card-img-top {
-  height: 250px; /* Ajusta la altura deseada */
-width: 250px;
+  height: 200px; /* Ajusta la altura deseada */
+width: 240px;
 }
 .white {
   color: #fff !important;
@@ -26,10 +26,10 @@ width: 250px;
 .card {
   border: 3px solid #131212;
   text-align: center;
-  width: 350px;
+  width: 300px;
   padding: 20px;
   background-color: #8dabac;
-  margin: 40px;
+  margin: 35px;
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
   margin-bottom: 150px;
   margin-top: 150px;

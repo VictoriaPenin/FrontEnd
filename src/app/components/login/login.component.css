@@ -1,19 +1,27 @@
-
 .vh-100{
-    background: #8090ac;
+    background:  #8dabac;
+    background-image: url('src\assets\Beige Blue Orange Colorful Wave Shape Organic Texture Wedding Banner (1).png'); /* Ruta o URL de la imagen del patrón */
+    width: 100%;
 }
-.btn{
-    border-width: 3px;
- 
-}
+
 .img-fluid{
-    width: 50%;
-   
+    width: 100%;
+}
+
+.formulario{
+    border: 1px solid black;
+    box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.2); /* Aplica una sombra al contenedor del formulario */
+    padding: 2rem;
+    background: #ebe7de;
+    border-radius: 30px;
+}
+
+.btn{
+    border: 3px solid black;
 }
 
 .h-custom {
 height: calc(100% - 73px);
-background: #8090ac;
 }
 @media (max-width: 450px) {
 .h-custom {
